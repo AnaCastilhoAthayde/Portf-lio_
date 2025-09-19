@@ -12,7 +12,7 @@ Este é o meu primeiro projeto de portfólio pessoal, criado com foco em apresen
 
  🔗 Acesse meu portfólio
 
-👉 [Clique aqui para acessar o site]([https://seu-link-github-ou-netlify-aqui.com](https://anacastilhoathayde.github.io/Portf-lio_/))
+👉 [Clique aqui para acessar o site](https://anacastilhoathayde.github.io/Portf-lio_/)
 
  📫 Contato
 
