@@ -16,7 +16,7 @@ Este é o meu primeiro projeto de portfólio pessoal, criado com foco em apresen
 
  📫 Contato
 
-- Email: castilho.athayde@gmail.com  
+- [Email:]castilho.athayde@gmail.com
 - [LinkedIn](https://www.linkedin.com/in/ana-luiza-castilho-741975365/)  
 - [GitHub](https://github.com/AnaCastilhoAthayde)  
 - [Instagram](https://www.instagram.com/dev.ana_/)
