@@ -1,4 +1,4 @@
-# 🌐 Meu Primeiro Portfólio
+# 🌐 Meu Portfólio
 
 Este é o meu primeiro projeto de portfólio pessoal, criado com foco em apresentar minhas habilidades, projetos e informações de contato de forma clara e moderna.
 
