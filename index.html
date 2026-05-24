@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Meu Portfólio</title>
+
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+
+  <!-- AOS -->
+  <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <button id="darkModeToggle" aria-label="Alternar modo escuro">
+    🌙 Dark Mode
+  </button>
+
+  <header>
+    <nav>
+      <a href="#home">Início</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#habilidades">Habilidades</a>
+      <a href="#projetos">Projetos</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <section id="home" class="hero" data-aos="fade-up">
+    <img src="img/IMG_ana.jpg" alt="Foto da Ana Luiza" class="profile-photo" />
+
+    <h1>Heloo, eu sou Ana Luiza</h1>
+
+    <p>
+      Desenvolvedora | Dev Junior | Programando em python | web design
+    </p>
+  </section>
+
+  <section id="sobre" data-aos="fade-right">
+    <h2 class="section-title">Sobre Mim</h2>
+
+    <p>
+      Sou apaixonada por tecnologia e criatividade. Começando na área de web design de UI/UX prototipando e criando visuais interativos e modernos. Programação em python, desenvolvimento web, criando soluções modernas e eficientes, gosto de aprender coisas novas, trabalhar com desafios, a minha maior paixão nessa área foi o front-end onde gosto de personalizar e transformar ideias e sonhos em realidade.
+    </p>
+  </section>
+
+  <section id="habilidades" data-aos="fade-left">
+    <h2 class="section-title">Habilidades</h2>
+
+    <div class="skills">
+
+      <div class="skill python" data-aos="flip-left" data-aos-delay="100">
+        <i class="fa-brands fa-python"></i>
+        <span>PYTHON</span>
+      </div>
+
+      <div class="skill css" data-aos="flip-left" data-aos-delay="200">
+        <i class="fa-brands fa-css3-alt"></i>
+        <span>CSS</span>
+      </div>
+
+      <div class="skill html" data-aos="flip-left" data-aos-delay="300">
+        <i class="fa-brands fa-html5"></i>
+        <span>HTML</span>
+      </div>
+
+      <div class="skill html" data-aos="flip-left" data-aos-delay="300">
+        <i class="fa-brands fa-js"></i>
+        <span>JAVASCRIPT</span>
+      </div>
+
+      <div class="skill html" data-aos="flip-left" data-aos-delay="300">
+        <i class="fa-brands fa-figma"></i>
+        <span>FIGMA</span>
+      </div>
+
+      <div class="skill html" data-aos="flip-left" data-aos-delay="300">
+        <i class="fa-solid fa-note-sticky"></i>
+        <span>NOTION</span>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="projetos" data-aos="zoom-in">
+    <h2 class="section-title">Projetos</h2>
+
+    <div class="projects">
+
+      <div class="project" data-aos="fade-up" data-aos-delay="100">
+        <h3>Pyacademy</h3>
+
+        <p>
+          Site criado para apresentar um projeto em grupo onde criamos um aplicativo para a fábrica de programadores.
+        </p>
+
+        <a href="https://anacastilhoathayde.github.io/Projeto_app/" target="_blank" class="project-link">
+          Ver projeto
+        </a>
+      </div>
+
+      <div class="project" data-aos="fade-up" data-aos-delay="200">
+        <h3>Studio de tranças castilho</h3>
+
+        <p>
+          Site desenvolvido e criado com a ideia de um studio de tranças diversas.
+        </p>
+
+        <a href="https://anacastilhoathayde.github.io/Projeto-Galeria_Alunos-Site/" target="_blank" class="project-link">
+          Ver projeto
+        </a>
+      </div>
+
+      <div class="project" data-aos="fade-up" data-aos-delay="300">
+        <h3>Galeria Alunos</h3>
+
+        <p>
+          Site desenvolvido e pensado para apresentar todos os sites de alunos da turma fábrica de programadores.
+        </p>
+
+        <a href="https://anacastilhoathayde.github.io/Projeto-Galeria_Alunos/" target="_blank" class="project-link">
+          Ver projeto
+        </a>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contato" data-aos="fade-up" data-aos-delay="400">
+    <h2 class="section-title">Contato</h2>
+
+    <div class="contact" style="text-align:center;">
+
+      <p>
+        <i class="fa-solid fa-envelope"></i>
+        <a href="mailto:castilho.athayde@gmail.com">
+          castilho.athayde@gmail.com
+        </a>
+      </p>
+
+      <p>
+        <i class="fa-brands fa-linkedin"></i>
+
+        <a href="https://www.linkedin.com/in/ana-luiza-castilho-741975365/" target="_blank">
+          LinkedIn
+        </a>
+      </p>
+
+      <p>
+        <i class="fa-brands fa-github"></i>
+
+        <a href="https://github.com/AnaCastilhoAthayde" target="_blank">
+          GitHub
+        </a>
+      </p>
+
+      <p>
+        <i class="fa-brands fa-instagram"></i>
+
+        <a href="https://www.instagram.com/dev.ana_/" target="_blank">
+          Instagram
+        </a>
+      </p>
+
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 - Ana Luiza Castilho. Todos os direitos reservados.</p>
+  </footer>
+
+  <!-- AOS -->
+  <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+  <!-- JS -->
+  <script src="script.js"></script>
+
+</body>
+</html>
